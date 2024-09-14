@@ -31,6 +31,10 @@
     padding: 4rem 1rem;
   }
 
+  .carousel-container {
+    width: 90%;
+  }
+
   .carousel {
     height: 40rem;
   }
