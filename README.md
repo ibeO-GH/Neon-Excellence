@@ -13,7 +13,7 @@ the Javascript functionalities like modal, carousel, and accordion.
 
 \*Implement responsiveness for tablet and mobile screens.
 
-## GitHub Pages - https://ibeo-gh.github.io/Neon-Logistics/
+## GitHub Pages - https://ibeo-gh.github.io/Neon-Excellence/
 
 ## Screenshot of how it looks
 
