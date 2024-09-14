@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEON Excellence</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="school logo" />
+          <h1>NEON Excellence</h1>
+        </div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="#programs">Our Programs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header section end -->
+
+    <!-- hero section start -->
+    <section class="hero">
+      <div class="overlay">
+        <h1>Welcome to NEON Excellence</h1>
+        <h2>Where curious minds explore, engage, and connect.</h2>
+        <p>
+          NEON excellence School is one of Africa's leading schools, offering a
+          distinctive and progressive approach to learning that engages students
+          in the classroom and with the world around them.
+        </p>
+        <button onclick="openModal()">Learn More</button>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- Modal Pop-up -->
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Our Program</h2>
+        <p>
+          NEON excellence offers a variety of programs designed to equip you
+          with the skills needed to thrive in today's dynamic world:
+        </p>
+        <ul>
+          <li>Humanities</li>
+          <li>Stem</li>
+          <li>Arts</li>
+          <li>Innovation in Learning</li>
+          <li>Global Studies and Services</li>
+        </ul>
+        <p>
+          Join us today and gain hands-on experience with educational experts.
+          Our programs are tailored to prepare you for real-world challenges.
+        </p>
+      </div>
+    </div>
+
+    <!-- why NEON Excellence section starts -->
+    <section class="why-section">
+      <div class="why-text">
+        <h2>Why NEON Excellence School?</h2>
+      </div>
+      <div class="flex-container">
+        <div class="box">
+          <div class="image-box box1">
+            <img
+              src="./assets/progressiveE.jpg"
+              alt="girl working an assignment"
+            />
+          </div>
+          <p>progressive education</p>
+        </div>
+        <div class="box">
+          <div class="image-box box2">
+            <img src="./assets/cityOurCampus.jpg" alt="campus photo" />
+          </div>
+          <p>the city is our campus</p>
+        </div>
+        <div class="box">
+          <div class="image-box box3">
+            <img
+              src="./assets/school4Children.jpg"
+              alt="kid with learning tools"
+            />
+          </div>
+          <p>A school for children</p>
+        </div>
+        <div class="box">
+          <div class="image-box box4">
+            <img
+              src="./assets/strongFoundation.jpg"
+              alt="Teacher guiding a student"
+            />
+          </div>
+          <p>A strong foundation</p>
+        </div>
+      </div>
+      <div class="why-btn">
+        <a href="">learn more about what makes us special</a>
+      </div>
+    </section>
+
+    <!-- why NEON Excellence section ends -->
+
+    <!-- Carousel Section start-->
+    <section class="carousel-section">
+      <div class="carousel-text">
+        <h2>Our Community</h2>
+        <p>
+          Take a look at our environment. We are an intentionally diverse,
+          inclusive community.
+        </p>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <img src="./assets/student-bonding.jpg" alt="student study-bonding" />
+          <img
+            src="./assets/students-preparing-exam.jpg"
+            alt="exam preparation"
+          />
+          <img
+            src="./assets/kids-practicing-yoga-together.jpg"
+            alt="kids practicing yoga"
+          />
+          <img
+            src="./assets/professor-work-educational-system.jpg"
+            alt="professor on field education"
+          />
+          <img src="./assets/hero-background.jpg" alt="class room" />
+        </div>
+        <button class="carousel-btn prev" onclick="prevSlide()">
+          &#10094;
+        </button>
+        <button class="carousel-btn next" onclick="nextSlide()">
+          &#10095;
+        </button>
+      </div>
+    </section>
+    <!-- Carousel Section stop-->
+
+    <!-- Accordion Section start-->
+    <section class="accordion-section" id="programs">
+      <h1>Our Programs <span>&#10095;</span> Beyond the Basics</h1>
+      <h2>Beyond the Basics</h2>
+      <p>
+        Visual and performing arts, foreign languages, library, physical
+        education, human development and sexuality—these aren&apos;t “extras” at
+        NEON Excellence School. They&apos;re essential parts of children&apos;s
+        learning, offered for everyone, every year because they&apos;re
+        important for everyone.
+      </p>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-button">visual arts</button>
+          <div class="accordion-content">
+            <p>
+              Creative expression is the goal as students draw, paint, sculpt,
+              make 3D creations, practice digital arts, learn about famous
+              artists, and explore art and culture.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">Foreign Languages</button>
+          <div class="accordion-content">
+            <p>
+              Lessons in French and Spanish begin in Prekindergarten. In 1st
+              Grade, students focus on one or the other, and continue with that
+              language through 8th Grade.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">performing arts</button>
+          <div class="accordion-content">
+            <p>
+              Children sing, dance, learn instruments, take the stage. Operas
+              based on children&apos;s books, shadow-puppet shows, the 6th Grade
+              musical theater production, and 7th and 8th Grade Scenes from
+              Shakespeare are among the many highlights.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">physical education</button>
+          <div class="accordion-content">
+            <p>
+              Kids need to move, and our PE program gets them moving in a
+              variety of fun and creative ways, developing motor skills and
+              introducing the joys of fitness and sports. Interscholastic sports
+              begin in 5th Grade.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-button">
+            human development and sexuality
+          </button>
+          <div class="accordion-content">
+            <p>
+              Age-appropriate courses begin in 4th Grade and continue through
+              8th Grade. This enriching program draws on many outstanding
+              resources, including “Our Whole Lives” (OWL) and “It&apos;s All
+              One Curriculum.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Accordion Section end-->
+
+    <!-- Interactive Map Section start-->
+    <section class="contact-map-section" id="contact">
+      <h2>Contact</h2>
+      <div class="main-container">
+        <div class="contactus-container">
+          <h2>Contact Us</h2>
+          <form onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message..."></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+          <p id="errorMessage"></p>
+        </div>
+        <div class="map-container">
+          <h2>Our Location</h2>
+          <!-- <div id="map"></div> -->
+          <!-- Place the iframe here -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d676917.2006259214!2d3.520427871971618!3d6.473656245688074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf75df5c74367%3A0x6a7e7df9d6c1cd4a!2sLekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1726257145110!5m2!1sen!2sng"
+            width="80%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Interactive Map Section end-->
+
+    <!-- Footer Section start-->
+    <footer>
+      <p>&copy; 2024 NEON Excellence Empowering Future Leaders.</p>
+    </footer>
+    <!-- Footer Section end-->
+
+    <script src="./script.js"></script>
+
+    <!-- Add Google Maps API script here -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </body>
+</html>
